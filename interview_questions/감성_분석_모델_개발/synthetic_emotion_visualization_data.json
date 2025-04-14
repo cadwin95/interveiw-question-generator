@@ -1,0 +1,2036 @@
+[
+    {
+        "id": "sample_001",
+        "input_text": "오늘 발표는 정말 긴장됐지만, 끝나고 나니 후련하고 뿌듯하다!",
+        "analyzed_emotions": {
+            "joy": 0.54,
+            "sadness": 0.0,
+            "anger": 0.0,
+            "surprise": 0.4,
+            "fear": 0.88,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(128, 0, 128, 0.88)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.54,
+                    "count": 5,
+                    "brightness": 0.54
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.4,
+                    "radius": 9
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.88,
+                    "count": 5,
+                    "amplitude": 4.4
+                }
+            ],
+            "background_effect": {
+                "type": "neutral_subtle",
+                "start_color": "#F5F5F5",
+                "end_color": "#E0E0E0"
+            },
+            "description": "Primarily fear (0.88) with significant joy (0.54)."
+        }
+    },
+    {
+        "id": "sample_002",
+        "input_text": "기대했던 영화인데 생각보다 지루해서 실망했고, 옆자리 관객이 시끄러워서 짜증도 났다.",
+        "analyzed_emotions": {
+            "joy": 0.15,
+            "sadness": 0.56,
+            "anger": 0.7,
+            "surprise": 0.22,
+            "fear": 0.0,
+            "disgust": 0.46
+        },
+        "visualization_data": {
+            "base_color": "rgba(220, 20, 60, 0.70)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.15,
+                    "count": 2,
+                    "brightness": 0.15
+                },
+                {
+                    "type": "tear",
+                    "intensity": 0.56,
+                    "size": 7,
+                    "color": "rgba(0, 0, 255, 0.56)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.7,
+                    "count": 5,
+                    "sharpness": 0.7
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.22,
+                    "radius": 6
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.46,
+                    "area": 14,
+                    "speed": 0.23
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily anger (0.70) with significant sadness (0.56)."
+        }
+    },
+    {
+        "id": "sample_003",
+        "input_text": "갑자기 친구가 나타나서 깜짝 놀랐지만, 너무 반가웠어!",
+        "analyzed_emotions": {
+            "joy": 0.66,
+            "sadness": 0.08,
+            "anger": 0.15,
+            "surprise": 0.78,
+            "fear": 0.2,
+            "disgust": 0.22
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 165, 0, 0.78)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.66,
+                    "count": 6,
+                    "brightness": 0.66
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.15,
+                    "count": 1,
+                    "sharpness": 0.15
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.78,
+                    "radius": 14
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.2,
+                    "count": 2,
+                    "amplitude": 1.0
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.22,
+                    "area": 9,
+                    "speed": 0.11
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily surprise (0.78) with significant joy (0.66)."
+        }
+    },
+    {
+        "id": "sample_004",
+        "input_text": "길에서 지갑을 잃어버려서 너무 슬프고 불안하다. 어떻게 해야 할지 모르겠어.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.57,
+            "anger": 0.14,
+            "surprise": 0.0,
+            "fear": 0.55,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(0, 110, 200, 0.57)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.57,
+                    "size": 7,
+                    "color": "rgba(0, 0, 255, 0.57)"
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.55,
+                    "count": 3,
+                    "amplitude": 2.75
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily sadness (0.57) with significant fear (0.55)."
+        }
+    },
+    {
+        "id": "sample_005",
+        "input_text": "내 아이디어를 팀장이 가로채서 발표했을 때 정말 화가 났고 역겨웠다.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.48,
+            "anger": 0.62,
+            "surprise": 0.0,
+            "fear": 0.0,
+            "disgust": 0.98
+        },
+        "visualization_data": {
+            "base_color": "rgba(0, 128, 0, 0.98)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.48,
+                    "size": 6,
+                    "color": "rgba(0, 0, 255, 0.48)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.62,
+                    "count": 4,
+                    "sharpness": 0.62
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.98,
+                    "area": 24,
+                    "speed": 0.49
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily disgust (0.98) with significant anger (0.62)."
+        }
+    },
+    {
+        "id": "sample_006",
+        "input_text": "오랜만에 가족들과 함께 맛있는 저녁을 먹으니 행복하고 편안하다.",
+        "analyzed_emotions": {
+            "joy": 0.76,
+            "sadness": 0.06,
+            "anger": 0.1,
+            "surprise": 0.19,
+            "fear": 0.24,
+            "disgust": 0.1
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 223, 0, 0.76)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.76,
+                    "count": 7,
+                    "brightness": 0.76
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.19,
+                    "radius": 5
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.24,
+                    "count": 2,
+                    "amplitude": 1.2
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily joy (0.76) with significant fear (0.24)."
+        }
+    },
+    {
+        "id": "sample_007",
+        "input_text": "무서운 영화를 봤더니 밤에 잠을 잘 못 자겠어. 계속 이상한 소리가 들리는 것 같아.",
+        "analyzed_emotions": {
+            "joy": 0.2,
+            "sadness": 0.0,
+            "anger": 0.0,
+            "surprise": 0.56,
+            "fear": 0.77,
+            "disgust": 0.16
+        },
+        "visualization_data": {
+            "base_color": "rgba(128, 0, 128, 0.77)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.2,
+                    "count": 2,
+                    "brightness": 0.2
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.56,
+                    "radius": 11
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.77,
+                    "count": 4,
+                    "amplitude": 3.85
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.16,
+                    "area": 8,
+                    "speed": 0.08
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily fear (0.77) with significant surprise (0.56)."
+        }
+    },
+    {
+        "id": "sample_008",
+        "input_text": "음식이 상한 것 같아. 냄새도 이상하고 보기만 해도 속이 안 좋다.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.24,
+            "anger": 0.1,
+            "surprise": 0.0,
+            "fear": 0.0,
+            "disgust": 0.79
+        },
+        "visualization_data": {
+            "base_color": "rgba(0, 128, 0, 0.79)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.24,
+                    "size": 4,
+                    "color": "rgba(0, 0, 255, 0.24)"
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.79,
+                    "area": 20,
+                    "speed": 0.4
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily disgust (0.79) with significant sadness (0.24)."
+        }
+    },
+    {
+        "id": "sample_009",
+        "input_text": "로또에 당첨되다니! 믿을 수가 없어! 너무 기쁘고 놀랍다!",
+        "analyzed_emotions": {
+            "joy": 0.52,
+            "sadness": 0.0,
+            "anger": 0.2,
+            "surprise": 0.62,
+            "fear": 0.0,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 165, 0, 0.62)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.52,
+                    "count": 5,
+                    "brightness": 0.52
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.2,
+                    "count": 2,
+                    "sharpness": 0.2
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.62,
+                    "radius": 12
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily surprise (0.62) with significant joy (0.52)."
+        }
+    },
+    {
+        "id": "sample_010",
+        "input_text": "노력한 만큼 결과가 나오지 않아 속상하고, 나 자신에게 화가 난다.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.73,
+            "anger": 0.74,
+            "surprise": 0.21,
+            "fear": 0.23,
+            "disgust": 0.1
+        },
+        "visualization_data": {
+            "base_color": "rgba(220, 20, 60, 0.74)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.73,
+                    "size": 9,
+                    "color": "rgba(0, 0, 255, 0.73)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.74,
+                    "count": 5,
+                    "sharpness": 0.74
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.21,
+                    "radius": 6
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.23,
+                    "count": 2,
+                    "amplitude": 1.15
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily anger (0.74) with significant sadness (0.73)."
+        }
+    },
+    {
+        "id": "sample_011",
+        "input_text": "오늘 발표는 정말 긴장됐지만, 끝나고 나니 후련하고 뿌듯하다!",
+        "analyzed_emotions": {
+            "joy": 0.89,
+            "sadness": 0.0,
+            "anger": 0.0,
+            "surprise": 0.42,
+            "fear": 0.57,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 223, 0, 0.89)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.89,
+                    "count": 8,
+                    "brightness": 0.89
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.42,
+                    "radius": 9
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.57,
+                    "count": 3,
+                    "amplitude": 2.85
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily joy (0.89) with significant fear (0.57)."
+        }
+    },
+    {
+        "id": "sample_012",
+        "input_text": "기대했던 영화인데 생각보다 지루해서 실망했고, 옆자리 관객이 시끄러워서 짜증도 났다.",
+        "analyzed_emotions": {
+            "joy": 0.2,
+            "sadness": 0.76,
+            "anger": 0.55,
+            "surprise": 0.0,
+            "fear": 0.07,
+            "disgust": 0.55
+        },
+        "visualization_data": {
+            "base_color": "rgba(0, 110, 200, 0.76)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.2,
+                    "count": 2,
+                    "brightness": 0.2
+                },
+                {
+                    "type": "tear",
+                    "intensity": 0.76,
+                    "size": 9,
+                    "color": "rgba(0, 0, 255, 0.76)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.55,
+                    "count": 4,
+                    "sharpness": 0.55
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.55,
+                    "area": 16,
+                    "speed": 0.28
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily sadness (0.76) with significant anger (0.55)."
+        }
+    },
+    {
+        "id": "sample_013",
+        "input_text": "갑자기 친구가 나타나서 깜짝 놀랐지만, 너무 반가웠어!",
+        "analyzed_emotions": {
+            "joy": 0.67,
+            "sadness": 0.0,
+            "anger": 0.11,
+            "surprise": 0.52,
+            "fear": 0.0,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 223, 0, 0.67)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.67,
+                    "count": 6,
+                    "brightness": 0.67
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.52,
+                    "radius": 10
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily joy (0.67) with significant surprise (0.52)."
+        }
+    },
+    {
+        "id": "sample_014",
+        "input_text": "길에서 지갑을 잃어버려서 너무 슬프고 불안하다. 어떻게 해야 할지 모르겠어.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.56,
+            "anger": 0.0,
+            "surprise": 0.0,
+            "fear": 0.57,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(128, 0, 128, 0.57)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.56,
+                    "size": 7,
+                    "color": "rgba(0, 0, 255, 0.56)"
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.57,
+                    "count": 3,
+                    "amplitude": 2.85
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily fear (0.57) with significant sadness (0.56)."
+        }
+    },
+    {
+        "id": "sample_015",
+        "input_text": "내 아이디어를 팀장이 가로채서 발표했을 때 정말 화가 났고 역겨웠다.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.58,
+            "anger": 0.98,
+            "surprise": 0.2,
+            "fear": 0.23,
+            "disgust": 0.74
+        },
+        "visualization_data": {
+            "base_color": "rgba(220, 20, 60, 0.98)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.58,
+                    "size": 7,
+                    "color": "rgba(0, 0, 255, 0.58)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.98,
+                    "count": 6,
+                    "sharpness": 0.98
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.2,
+                    "radius": 6
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.23,
+                    "count": 2,
+                    "amplitude": 1.15
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.74,
+                    "area": 19,
+                    "speed": 0.37
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily anger (0.98) with significant disgust (0.74)."
+        }
+    },
+    {
+        "id": "sample_016",
+        "input_text": "오랜만에 가족들과 함께 맛있는 저녁을 먹으니 행복하고 편안하다.",
+        "analyzed_emotions": {
+            "joy": 0.54,
+            "sadness": 0.09,
+            "anger": 0.12,
+            "surprise": 0.17,
+            "fear": 0.13,
+            "disgust": 0.07
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 223, 0, 0.54)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.54,
+                    "count": 5,
+                    "brightness": 0.54
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.17,
+                    "radius": 5
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily joy (0.54) with significant surprise (0.17)."
+        }
+    },
+    {
+        "id": "sample_017",
+        "input_text": "무서운 영화를 봤더니 밤에 잠을 잘 못 자겠어. 계속 이상한 소리가 들리는 것 같아.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.0,
+            "anger": 0.18,
+            "surprise": 0.34,
+            "fear": 0.63,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(128, 0, 128, 0.63)",
+            "elements": [
+                {
+                    "type": "spike",
+                    "intensity": 0.18,
+                    "count": 2,
+                    "sharpness": 0.18
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.34,
+                    "radius": 8
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.63,
+                    "count": 4,
+                    "amplitude": 3.15
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily fear (0.63) with significant surprise (0.34)."
+        }
+    },
+    {
+        "id": "sample_018",
+        "input_text": "음식이 상한 것 같아. 냄새도 이상하고 보기만 해도 속이 안 좋다.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.36,
+            "anger": 0.0,
+            "surprise": 0.0,
+            "fear": 0.0,
+            "disgust": 0.57
+        },
+        "visualization_data": {
+            "base_color": "rgba(0, 128, 0, 0.57)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.36,
+                    "size": 5,
+                    "color": "rgba(0, 0, 255, 0.36)"
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.57,
+                    "area": 16,
+                    "speed": 0.28
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily disgust (0.57) with significant sadness (0.36)."
+        }
+    },
+    {
+        "id": "sample_019",
+        "input_text": "로또에 당첨되다니! 믿을 수가 없어! 너무 기쁘고 놀랍다!",
+        "analyzed_emotions": {
+            "joy": 0.85,
+            "sadness": 0.09,
+            "anger": 0.11,
+            "surprise": 1.0,
+            "fear": 0.0,
+            "disgust": 0.24
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 165, 0, 1.00)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.85,
+                    "count": 7,
+                    "brightness": 0.85
+                },
+                {
+                    "type": "burst",
+                    "intensity": 1.0,
+                    "radius": 18
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.24,
+                    "area": 9,
+                    "speed": 0.12
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily surprise (1.00) with significant joy (0.85)."
+        }
+    },
+    {
+        "id": "sample_020",
+        "input_text": "노력한 만큼 결과가 나오지 않아 속상하고, 나 자신에게 화가 난다.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.51,
+            "anger": 0.72,
+            "surprise": 0.19,
+            "fear": 0.0,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(220, 20, 60, 0.72)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.51,
+                    "size": 7,
+                    "color": "rgba(0, 0, 255, 0.51)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.72,
+                    "count": 5,
+                    "sharpness": 0.72
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.19,
+                    "radius": 5
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily anger (0.72) with significant sadness (0.51)."
+        }
+    },
+    {
+        "id": "sample_021",
+        "input_text": "오늘 발표는 정말 긴장됐지만, 끝나고 나니 후련하고 뿌듯하다!",
+        "analyzed_emotions": {
+            "joy": 0.83,
+            "sadness": 0.0,
+            "anger": 0.06,
+            "surprise": 0.36,
+            "fear": 0.63,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 223, 0, 0.83)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.83,
+                    "count": 7,
+                    "brightness": 0.83
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.36,
+                    "radius": 8
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.63,
+                    "count": 4,
+                    "amplitude": 3.15
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily joy (0.83) with significant fear (0.63)."
+        }
+    },
+    {
+        "id": "sample_022",
+        "input_text": "기대했던 영화인데 생각보다 지루해서 실망했고, 옆자리 관객이 시끄러워서 짜증도 났다.",
+        "analyzed_emotions": {
+            "joy": 0.1,
+            "sadness": 0.63,
+            "anger": 0.97,
+            "surprise": 0.11,
+            "fear": 0.07,
+            "disgust": 0.38
+        },
+        "visualization_data": {
+            "base_color": "rgba(220, 20, 60, 0.97)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.63,
+                    "size": 8,
+                    "color": "rgba(0, 0, 255, 0.63)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.97,
+                    "count": 6,
+                    "sharpness": 0.97
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.38,
+                    "area": 12,
+                    "speed": 0.19
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily anger (0.97) with significant sadness (0.63)."
+        }
+    },
+    {
+        "id": "sample_023",
+        "input_text": "갑자기 친구가 나타나서 깜짝 놀랐지만, 너무 반가웠어!",
+        "analyzed_emotions": {
+            "joy": 0.8,
+            "sadness": 0.0,
+            "anger": 0.0,
+            "surprise": 0.73,
+            "fear": 0.0,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 223, 0, 0.80)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.8,
+                    "count": 7,
+                    "brightness": 0.8
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.73,
+                    "radius": 13
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily joy (0.80) with significant surprise (0.73)."
+        }
+    },
+    {
+        "id": "sample_024",
+        "input_text": "길에서 지갑을 잃어버려서 너무 슬프고 불안하다. 어떻게 해야 할지 모르겠어.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.96,
+            "anger": 0.18,
+            "surprise": 0.0,
+            "fear": 0.64,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(0, 110, 200, 0.96)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.96,
+                    "size": 11,
+                    "color": "rgba(0, 0, 255, 0.96)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.18,
+                    "count": 2,
+                    "sharpness": 0.18
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.64,
+                    "count": 4,
+                    "amplitude": 3.2
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily sadness (0.96) with significant fear (0.64)."
+        }
+    },
+    {
+        "id": "sample_025",
+        "input_text": "내 아이디어를 팀장이 가로채서 발표했을 때 정말 화가 났고 역겨웠다.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.55,
+            "anger": 0.58,
+            "surprise": 0.14,
+            "fear": 0.0,
+            "disgust": 0.99
+        },
+        "visualization_data": {
+            "base_color": "rgba(0, 128, 0, 0.99)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.55,
+                    "size": 7,
+                    "color": "rgba(0, 0, 255, 0.55)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.58,
+                    "count": 4,
+                    "sharpness": 0.58
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.99,
+                    "area": 24,
+                    "speed": 0.49
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily disgust (0.99) with significant anger (0.58)."
+        }
+    },
+    {
+        "id": "sample_026",
+        "input_text": "오랜만에 가족들과 함께 맛있는 저녁을 먹으니 행복하고 편안하다.",
+        "analyzed_emotions": {
+            "joy": 0.82,
+            "sadness": 0.0,
+            "anger": 0.0,
+            "surprise": 0.0,
+            "fear": 0.0,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 223, 0, 0.82)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.82,
+                    "count": 7,
+                    "brightness": 0.82
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily joy (0.82)."
+        }
+    },
+    {
+        "id": "sample_027",
+        "input_text": "무서운 영화를 봤더니 밤에 잠을 잘 못 자겠어. 계속 이상한 소리가 들리는 것 같아.",
+        "analyzed_emotions": {
+            "joy": 0.16,
+            "sadness": 0.07,
+            "anger": 0.0,
+            "surprise": 0.57,
+            "fear": 0.8,
+            "disgust": 0.24
+        },
+        "visualization_data": {
+            "base_color": "rgba(128, 0, 128, 0.80)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.16,
+                    "count": 2,
+                    "brightness": 0.16
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.57,
+                    "radius": 11
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.8,
+                    "count": 5,
+                    "amplitude": 4.0
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.24,
+                    "area": 9,
+                    "speed": 0.12
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily fear (0.80) with significant surprise (0.57)."
+        }
+    },
+    {
+        "id": "sample_028",
+        "input_text": "음식이 상한 것 같아. 냄새도 이상하고 보기만 해도 속이 안 좋다.",
+        "analyzed_emotions": {
+            "joy": 0.11,
+            "sadness": 0.47,
+            "anger": 0.2,
+            "surprise": 0.0,
+            "fear": 0.15,
+            "disgust": 0.53
+        },
+        "visualization_data": {
+            "base_color": "rgba(0, 128, 0, 0.53)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.47,
+                    "size": 6,
+                    "color": "rgba(0, 0, 255, 0.47)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.2,
+                    "count": 2,
+                    "sharpness": 0.2
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.15,
+                    "count": 1,
+                    "amplitude": 0.75
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.53,
+                    "area": 15,
+                    "speed": 0.27
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily disgust (0.53) with significant sadness (0.47)."
+        }
+    },
+    {
+        "id": "sample_029",
+        "input_text": "로또에 당첨되다니! 믿을 수가 없어! 너무 기쁘고 놀랍다!",
+        "analyzed_emotions": {
+            "joy": 0.54,
+            "sadness": 0.0,
+            "anger": 0.0,
+            "surprise": 0.7,
+            "fear": 0.12,
+            "disgust": 0.05
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 165, 0, 0.70)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.54,
+                    "count": 5,
+                    "brightness": 0.54
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.7,
+                    "radius": 13
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily surprise (0.70) with significant joy (0.54)."
+        }
+    },
+    {
+        "id": "sample_030",
+        "input_text": "노력한 만큼 결과가 나오지 않아 속상하고, 나 자신에게 화가 난다.",
+        "analyzed_emotions": {
+            "joy": 0.08,
+            "sadness": 0.87,
+            "anger": 0.66,
+            "surprise": 0.21,
+            "fear": 0.0,
+            "disgust": 0.14
+        },
+        "visualization_data": {
+            "base_color": "rgba(0, 110, 200, 0.87)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.87,
+                    "size": 10,
+                    "color": "rgba(0, 0, 255, 0.87)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.66,
+                    "count": 4,
+                    "sharpness": 0.66
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.21,
+                    "radius": 6
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily sadness (0.87) with significant anger (0.66)."
+        }
+    },
+    {
+        "id": "sample_031",
+        "input_text": "오늘 발표는 정말 긴장됐지만, 끝나고 나니 후련하고 뿌듯하다!",
+        "analyzed_emotions": {
+            "joy": 0.8,
+            "sadness": 0.0,
+            "anger": 0.0,
+            "surprise": 0.47,
+            "fear": 0.76,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 223, 0, 0.80)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.8,
+                    "count": 7,
+                    "brightness": 0.8
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.47,
+                    "radius": 10
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.76,
+                    "count": 4,
+                    "amplitude": 3.8
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily joy (0.80) with significant fear (0.76)."
+        }
+    },
+    {
+        "id": "sample_032",
+        "input_text": "기대했던 영화인데 생각보다 지루해서 실망했고, 옆자리 관객이 시끄러워서 짜증도 났다.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.73,
+            "anger": 0.85,
+            "surprise": 0.0,
+            "fear": 0.08,
+            "disgust": 0.48
+        },
+        "visualization_data": {
+            "base_color": "rgba(220, 20, 60, 0.85)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.73,
+                    "size": 9,
+                    "color": "rgba(0, 0, 255, 0.73)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.85,
+                    "count": 6,
+                    "sharpness": 0.85
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.48,
+                    "area": 14,
+                    "speed": 0.24
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily anger (0.85) with significant sadness (0.73)."
+        }
+    },
+    {
+        "id": "sample_033",
+        "input_text": "갑자기 친구가 나타나서 깜짝 놀랐지만, 너무 반가웠어!",
+        "analyzed_emotions": {
+            "joy": 0.66,
+            "sadness": 0.0,
+            "anger": 0.12,
+            "surprise": 0.87,
+            "fear": 0.12,
+            "disgust": 0.21
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 165, 0, 0.87)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.66,
+                    "count": 6,
+                    "brightness": 0.66
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.87,
+                    "radius": 16
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.21,
+                    "area": 9,
+                    "speed": 0.1
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily surprise (0.87) with significant joy (0.66)."
+        }
+    },
+    {
+        "id": "sample_034",
+        "input_text": "길에서 지갑을 잃어버려서 너무 슬프고 불안하다. 어떻게 해야 할지 모르겠어.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.84,
+            "anger": 0.0,
+            "surprise": 0.0,
+            "fear": 0.64,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(0, 110, 200, 0.84)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.84,
+                    "size": 10,
+                    "color": "rgba(0, 0, 255, 0.84)"
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.64,
+                    "count": 4,
+                    "amplitude": 3.2
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily sadness (0.84) with significant fear (0.64)."
+        }
+    },
+    {
+        "id": "sample_035",
+        "input_text": "내 아이디어를 팀장이 가로채서 발표했을 때 정말 화가 났고 역겨웠다.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.44,
+            "anger": 0.58,
+            "surprise": 0.05,
+            "fear": 0.19,
+            "disgust": 0.8
+        },
+        "visualization_data": {
+            "base_color": "rgba(0, 128, 0, 0.80)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.44,
+                    "size": 6,
+                    "color": "rgba(0, 0, 255, 0.44)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.58,
+                    "count": 4,
+                    "sharpness": 0.58
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.19,
+                    "count": 1,
+                    "amplitude": 0.95
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.8,
+                    "area": 21,
+                    "speed": 0.4
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily disgust (0.80) with significant anger (0.58)."
+        }
+    },
+    {
+        "id": "sample_036",
+        "input_text": "오랜만에 가족들과 함께 맛있는 저녁을 먹으니 행복하고 편안하다.",
+        "analyzed_emotions": {
+            "joy": 0.91,
+            "sadness": 0.16,
+            "anger": 0.0,
+            "surprise": 0.0,
+            "fear": 0.0,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 223, 0, 0.91)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.91,
+                    "count": 8,
+                    "brightness": 0.91
+                },
+                {
+                    "type": "tear",
+                    "intensity": 0.16,
+                    "size": 3,
+                    "color": "rgba(0, 0, 255, 0.20)"
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily joy (0.91) with significant sadness (0.16)."
+        }
+    },
+    {
+        "id": "sample_037",
+        "input_text": "무서운 영화를 봤더니 밤에 잠을 잘 못 자겠어. 계속 이상한 소리가 들리는 것 같아.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.22,
+            "anger": 0.06,
+            "surprise": 0.25,
+            "fear": 0.76,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(128, 0, 128, 0.76)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.22,
+                    "size": 4,
+                    "color": "rgba(0, 0, 255, 0.22)"
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.25,
+                    "radius": 6
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.76,
+                    "count": 4,
+                    "amplitude": 3.8
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily fear (0.76) with significant surprise (0.25)."
+        }
+    },
+    {
+        "id": "sample_038",
+        "input_text": "음식이 상한 것 같아. 냄새도 이상하고 보기만 해도 속이 안 좋다.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.44,
+            "anger": 0.0,
+            "surprise": 0.0,
+            "fear": 0.0,
+            "disgust": 0.62
+        },
+        "visualization_data": {
+            "base_color": "rgba(0, 128, 0, 0.62)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.44,
+                    "size": 6,
+                    "color": "rgba(0, 0, 255, 0.44)"
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.62,
+                    "area": 17,
+                    "speed": 0.31
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily disgust (0.62) with significant sadness (0.44)."
+        }
+    },
+    {
+        "id": "sample_039",
+        "input_text": "로또에 당첨되다니! 믿을 수가 없어! 너무 기쁘고 놀랍다!",
+        "analyzed_emotions": {
+            "joy": 0.53,
+            "sadness": 0.0,
+            "anger": 0.0,
+            "surprise": 0.89,
+            "fear": 0.0,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 165, 0, 0.89)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.53,
+                    "count": 5,
+                    "brightness": 0.53
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.89,
+                    "radius": 16
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily surprise (0.89) with significant joy (0.53)."
+        }
+    },
+    {
+        "id": "sample_040",
+        "input_text": "노력한 만큼 결과가 나오지 않아 속상하고, 나 자신에게 화가 난다.",
+        "analyzed_emotions": {
+            "joy": 0.05,
+            "sadness": 0.73,
+            "anger": 0.84,
+            "surprise": 0.23,
+            "fear": 0.22,
+            "disgust": 0.05
+        },
+        "visualization_data": {
+            "base_color": "rgba(220, 20, 60, 0.84)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.73,
+                    "size": 9,
+                    "color": "rgba(0, 0, 255, 0.73)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.84,
+                    "count": 6,
+                    "sharpness": 0.84
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.23,
+                    "radius": 6
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.22,
+                    "count": 2,
+                    "amplitude": 1.1
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily anger (0.84) with significant sadness (0.73)."
+        }
+    },
+    {
+        "id": "sample_041",
+        "input_text": "오늘 발표는 정말 긴장됐지만, 끝나고 나니 후련하고 뿌듯하다!",
+        "analyzed_emotions": {
+            "joy": 0.87,
+            "sadness": 0.23,
+            "anger": 0.0,
+            "surprise": 0.42,
+            "fear": 0.92,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(128, 0, 128, 0.92)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.87,
+                    "count": 7,
+                    "brightness": 0.87
+                },
+                {
+                    "type": "tear",
+                    "intensity": 0.23,
+                    "size": 4,
+                    "color": "rgba(0, 0, 255, 0.23)"
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.42,
+                    "radius": 9
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.92,
+                    "count": 5,
+                    "amplitude": 4.6
+                }
+            ],
+            "background_effect": {
+                "type": "neutral_subtle",
+                "start_color": "#F5F5F5",
+                "end_color": "#E0E0E0"
+            },
+            "description": "Primarily fear (0.92) with significant joy (0.87)."
+        }
+    },
+    {
+        "id": "sample_042",
+        "input_text": "기대했던 영화인데 생각보다 지루해서 실망했고, 옆자리 관객이 시끄러워서 짜증도 났다.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.99,
+            "anger": 0.94,
+            "surprise": 0.0,
+            "fear": 0.0,
+            "disgust": 0.48
+        },
+        "visualization_data": {
+            "base_color": "rgba(0, 110, 200, 0.99)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.99,
+                    "size": 11,
+                    "color": "rgba(0, 0, 255, 0.99)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.94,
+                    "count": 6,
+                    "sharpness": 0.94
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.48,
+                    "area": 14,
+                    "speed": 0.24
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily sadness (0.99) with significant anger (0.94)."
+        }
+    },
+    {
+        "id": "sample_043",
+        "input_text": "갑자기 친구가 나타나서 깜짝 놀랐지만, 너무 반가웠어!",
+        "analyzed_emotions": {
+            "joy": 0.74,
+            "sadness": 0.0,
+            "anger": 0.23,
+            "surprise": 0.84,
+            "fear": 0.17,
+            "disgust": 0.18
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 165, 0, 0.84)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.74,
+                    "count": 6,
+                    "brightness": 0.74
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.23,
+                    "count": 2,
+                    "sharpness": 0.23
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.84,
+                    "radius": 15
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.17,
+                    "count": 1,
+                    "amplitude": 0.85
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.18,
+                    "area": 8,
+                    "speed": 0.09
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily surprise (0.84) with significant joy (0.74)."
+        }
+    },
+    {
+        "id": "sample_044",
+        "input_text": "길에서 지갑을 잃어버려서 너무 슬프고 불안하다. 어떻게 해야 할지 모르겠어.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.85,
+            "anger": 0.0,
+            "surprise": 0.0,
+            "fear": 0.83,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(0, 110, 200, 0.85)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.85,
+                    "size": 10,
+                    "color": "rgba(0, 0, 255, 0.85)"
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.83,
+                    "count": 5,
+                    "amplitude": 4.15
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily sadness (0.85) with significant fear (0.83)."
+        }
+    },
+    {
+        "id": "sample_045",
+        "input_text": "내 아이디어를 팀장이 가로채서 발표했을 때 정말 화가 났고 역겨웠다.",
+        "analyzed_emotions": {
+            "joy": 0.1,
+            "sadness": 0.35,
+            "anger": 0.71,
+            "surprise": 0.0,
+            "fear": 0.0,
+            "disgust": 0.89
+        },
+        "visualization_data": {
+            "base_color": "rgba(0, 128, 0, 0.89)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.35,
+                    "size": 5,
+                    "color": "rgba(0, 0, 255, 0.35)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.71,
+                    "count": 5,
+                    "sharpness": 0.71
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.89,
+                    "area": 22,
+                    "speed": 0.45
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily disgust (0.89) with significant anger (0.71)."
+        }
+    },
+    {
+        "id": "sample_046",
+        "input_text": "오랜만에 가족들과 함께 맛있는 저녁을 먹으니 행복하고 편안하다.",
+        "analyzed_emotions": {
+            "joy": 0.74,
+            "sadness": 0.0,
+            "anger": 0.0,
+            "surprise": 0.0,
+            "fear": 0.0,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 223, 0, 0.74)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.74,
+                    "count": 6,
+                    "brightness": 0.74
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily joy (0.74)."
+        }
+    },
+    {
+        "id": "sample_047",
+        "input_text": "무서운 영화를 봤더니 밤에 잠을 잘 못 자겠어. 계속 이상한 소리가 들리는 것 같아.",
+        "analyzed_emotions": {
+            "joy": 0.21,
+            "sadness": 0.21,
+            "anger": 0.17,
+            "surprise": 0.52,
+            "fear": 0.93,
+            "disgust": 0.16
+        },
+        "visualization_data": {
+            "base_color": "rgba(128, 0, 128, 0.93)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.21,
+                    "count": 2,
+                    "brightness": 0.21
+                },
+                {
+                    "type": "tear",
+                    "intensity": 0.21,
+                    "size": 4,
+                    "color": "rgba(0, 0, 255, 0.21)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.17,
+                    "count": 2,
+                    "sharpness": 0.17
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.52,
+                    "radius": 10
+                },
+                {
+                    "type": "tremble_line",
+                    "intensity": 0.93,
+                    "count": 5,
+                    "amplitude": 4.65
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.16,
+                    "area": 8,
+                    "speed": 0.08
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily fear (0.93) with significant surprise (0.52)."
+        }
+    },
+    {
+        "id": "sample_048",
+        "input_text": "음식이 상한 것 같아. 냄새도 이상하고 보기만 해도 속이 안 좋다.",
+        "analyzed_emotions": {
+            "joy": 0.09,
+            "sadness": 0.58,
+            "anger": 0.22,
+            "surprise": 0.0,
+            "fear": 0.12,
+            "disgust": 0.85
+        },
+        "visualization_data": {
+            "base_color": "rgba(0, 128, 0, 0.85)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.58,
+                    "size": 7,
+                    "color": "rgba(0, 0, 255, 0.58)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.22,
+                    "count": 2,
+                    "sharpness": 0.22
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.85,
+                    "area": 22,
+                    "speed": 0.42
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily disgust (0.85) with significant sadness (0.58)."
+        }
+    },
+    {
+        "id": "sample_049",
+        "input_text": "로또에 당첨되다니! 믿을 수가 없어! 너무 기쁘고 놀랍다!",
+        "analyzed_emotions": {
+            "joy": 0.64,
+            "sadness": 0.25,
+            "anger": 0.08,
+            "surprise": 0.94,
+            "fear": 0.0,
+            "disgust": 0.18
+        },
+        "visualization_data": {
+            "base_color": "rgba(255, 165, 0, 0.94)",
+            "elements": [
+                {
+                    "type": "sparkle",
+                    "intensity": 0.64,
+                    "count": 6,
+                    "brightness": 0.64
+                },
+                {
+                    "type": "tear",
+                    "intensity": 0.25,
+                    "size": 4,
+                    "color": "rgba(0, 0, 255, 0.25)"
+                },
+                {
+                    "type": "burst",
+                    "intensity": 0.94,
+                    "radius": 17
+                },
+                {
+                    "type": "ooze",
+                    "intensity": 0.18,
+                    "area": 8,
+                    "speed": 0.09
+                }
+            ],
+            "background_effect": {
+                "type": "bright_gradient",
+                "start_color": "#FFFACD",
+                "end_color": "#FFEFD5"
+            },
+            "description": "Primarily surprise (0.94) with significant joy (0.64)."
+        }
+    },
+    {
+        "id": "sample_050",
+        "input_text": "노력한 만큼 결과가 나오지 않아 속상하고, 나 자신에게 화가 난다.",
+        "analyzed_emotions": {
+            "joy": 0.0,
+            "sadness": 0.97,
+            "anger": 0.9,
+            "surprise": 0.0,
+            "fear": 0.09,
+            "disgust": 0.0
+        },
+        "visualization_data": {
+            "base_color": "rgba(0, 110, 200, 0.97)",
+            "elements": [
+                {
+                    "type": "tear",
+                    "intensity": 0.97,
+                    "size": 11,
+                    "color": "rgba(0, 0, 255, 0.97)"
+                },
+                {
+                    "type": "spike",
+                    "intensity": 0.9,
+                    "count": 6,
+                    "sharpness": 0.9
+                }
+            ],
+            "background_effect": {
+                "type": "dark_gradient",
+                "start_color": "#B0C4DE",
+                "end_color": "#778899"
+            },
+            "description": "Primarily sadness (0.97) with significant anger (0.90)."
+        }
+    }
+]

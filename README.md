@@ -4,7 +4,7 @@
 
 ## 주요 기능
 
-- 8개 직업군에 맞춤화된 면접 문제 생성
+- 다양한 직업군에 맞춤화된 면접 문제 생성
 - 기존 주제 기반 자동 주제 생성
 - 9단계 검증 및 개선 프로세스
 - 마크다운 형식의 결과 저장
@@ -35,7 +35,7 @@ python main.py
 | `--test-type` | 문제 생성 모드 (`creative`, `complex`, `default`) |
 | `--no-save` | 결과 파일 저장 안 함 |
 | `--topic` | 특정 주제 지정 (지정하지 않으면 자동 생성) |
-| `--job` | 직업군 지정 (기본값: ai_engineer) |
+| `--job` | 직업군 지정 (예: ai_engineer, data_scientist, software_engineer 등) |
 | `--time-limit` | 문제 해결 제한 시간(분) (기본값: 30분) |
 
 ### 예시
@@ -47,7 +47,7 @@ python main.py --job ai_engineer --time-limit 120
 
 2. 특정 주제로 문제 생성:
 ```bash
-python main.py --job ai_engineer --topic "금융 데이터 품질 관리" --time-limit 120
+python main.py --job data_scientist --topic "금융 데이터 품질 관리" --time-limit 120
 ```
 
 ## 생성 프로세스
@@ -69,17 +69,6 @@ python main.py --job ai_engineer --topic "금융 데이터 품질 관리" --time
 - `question.md`: 문제 설명 및 요구사항
 - `interviewer_guide.md`: 면접관 가이드
 - `generate_data.py`: 데이터 생성 코드
-
-## 지원하는 직업군
-
-- AI 엔지니어
-- 데이터 사이언티스트
-- 백엔드 개발자
-- 프론트엔드 개발자
-- DevOps 엔지니어
-- 보안 엔지니어
-- 제품 매니저
-- UX 디자이너
 
 ## 주의사항
 

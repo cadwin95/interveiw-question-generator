@@ -35,8 +35,23 @@ job_positions = {
     "ux_designer": "UX 디자이너"
 }
 
+# 📌 0️⃣ 주제 생성 AI: 기존 주제를 기반으로 새로운 주제 생성
+def generate_topics(existing_topics):
+    prompt = f"""
+    다음은 기존 면접 문제 주제 목록입니다:
+    {existing_topics}
+
+    이 주제들을 참고하여, AI 엔지니어 면접에 적합한 새로운 주제를 1개만 생성해주세요.
+    **중요: 주제만 간단히 작성하세요. 설명이나 추가 내용은 절대 포함하지 마세요.**
+
+    출력 형식:
+    [주제]
+    """
+    response = model.generate_content(prompt)
+    return response.text.strip()
+
 # 📌 1️⃣ 기획 AI: 문제 초안 생성 (직무 파라미터 추가)
-def generate_initial_question(specified_topic=None, job_role="ai_engineer"):
+def generate_initial_question(specified_topic=None, job_role="ai_engineer", time_limit=30):
     job_name = job_positions[job_role]
     
     if specified_topic:
@@ -45,7 +60,7 @@ def generate_initial_question(specified_topic=None, job_role="ai_engineer"):
         '{topic}'을 주제로 {job_name} 면접 문제를 만들어주세요.
 
         요구사항:
-        - 30분 내 해결 가능한 실전형 과제
+        - {time_limit}분 내 해결 가능한 실전형 과제
         - 기술적 능력과 사고 과정 평가 가능
         - 주제와 직무를 연결하는 참신한 관점
 
@@ -62,7 +77,7 @@ def generate_initial_question(specified_topic=None, job_role="ai_engineer"):
         {job_name} 면접 문제를 만들어주세요.
 
         요구사항:
-        - 30분 내 해결 가능한 실전형 과제
+        - {time_limit}분 내 해결 가능한 실전형 과제
         - 기술적 능력과 사고 과정 평가 가능
         - 직무와 관련된 참신한 관점
 
@@ -77,7 +92,7 @@ def generate_initial_question(specified_topic=None, job_role="ai_engineer"):
     response = model.generate_content(prompt)
     return topic, response.text
 
-# �� 2️⃣ 논리 검증 AI (직무 정보 추가)
+# 📌 2️⃣ 논리 검증 AI (직무 정보 추가)
 def validate_question(question, topic, job_name):
     prompt = f"""
     다음 {job_name} 면접 문제의 논리적 오류를 검토하고 개선할 부분을 제안하세요.
@@ -108,7 +123,7 @@ def validate_question(question, topic, job_name):
     return response.text
 
 # 📌 3️⃣ 난이도 조정 AI: 문제 난이도 평가 및 조정
-def adjust_difficulty(question, topic, job_name):
+def adjust_difficulty(question, topic, job_name, time_limit=30):
     prompt = f"""
     다음 {job_name} 면접 문제의 난이도를 평가하고, 적절한 수준으로 조정하세요.
 
@@ -118,7 +133,7 @@ def adjust_difficulty(question, topic, job_name):
     **조정 기준:**  
     - 너무 쉬운 경우: 추가 도전 과제를 제안  
     - 너무 어려운 경우: 해결 범위를 좁히거나, 필수 요구사항을 줄이기  
-    - 30분 내 해결 가능하도록 문제 조정
+    - {time_limit}분 내 해결 가능하도록 문제 조정
     - {topic if topic else "주제"}에서 벗어나지 않도록 조정
 
     **출력 형식:**
@@ -161,34 +176,6 @@ def enhance_creativity(question, topic, job_name):
 
     ### 변형된 문제
     [창의성을 강화한 수정된 문제를 작성하세요]
-    """
-    response = model.generate_content(prompt)
-    return response.text
-
-# 📌 5️⃣ 난해함 조정 AI: 문제 복잡성 증가
-def enhance_complexity(question, topic, job_name):
-    prompt = f"""
-    다음 {job_name} 면접 문제를 더욱 난해하게 만들어 주세요.
-
-    **면접 문제:**  
-    {question}
-
-    **변형 기준:**  
-    - 논리적 장애물을 추가하되, 30분 내에 해결 가능한 수준으로 유지하세요.
-    - 불가능해보이는 문제면 더 좋습니다.
-    - {topic if topic else "주제"}에서 벗어나지 않도록 조정
-
-    **출력 형식:**
-    ### 복잡성 강화 방안
-    [문제를 더 복잡하게 만들기 위한 방안을 설명하세요]
-
-    ### 추가된 복잡성
-    - [추가된 복잡성 1]
-    - [추가된 복잡성 2]
-    - [추가된 복잡성 3]
-
-    ### 변형된 문제
-    [복잡성을 강화한 수정된 문제를 작성하세요]
     """
     response = model.generate_content(prompt)
     return response.text
@@ -419,8 +406,10 @@ def generate_interviewer_guide(question, job_name):
     response = model.generate_content(prompt)
     return response.text
 
+
+
 # 🎯 AI 면접 문제 생성 및 조정 실행 (직무 파라미터 추가)
-def ai_interview_question_generator(test_type="creative", save_results=True, topic=None, job_role="ai_engineer"):
+def ai_interview_question_generator(test_type="creative", save_results=True, topic=None, job_role="ai_engineer", time_limit=30):
     # 결과를 저장할 딕셔너리 생성
     results = {}
     job_name = job_positions[job_role]
@@ -429,10 +418,25 @@ def ai_interview_question_generator(test_type="creative", save_results=True, top
     print(f"# {job_name} 면접 문제 생성 프로세스")
     print("="*80 + "\n")
     
+    # 0. 주제 생성 (기존 주제가 없는 경우)
+    if not topic:
+        print("## 0. 주제 생성")
+        print("-"*40)
+        # 기존 주제 목록 가져오기
+        existing_topics = []
+        for dir_name in os.listdir("interview_questions"):
+            if os.path.isdir(os.path.join("interview_questions", dir_name)):
+                existing_topics.append(dir_name)
+        
+        if existing_topics:
+            print("기존 주제 목록을 기반으로 새로운 주제를 생성합니다...")
+            topic = generate_topics("\n".join([f"- {t}" for t in existing_topics]))
+            print(f"\n생성된 주제: {topic}")
+    
     # 1. 초기 문제 생성
     print("## 1. 문제 기획")
     print("-"*40)
-    selected_topic, initial_question = generate_initial_question(specified_topic=topic, job_role=job_role)
+    selected_topic, initial_question = generate_initial_question(specified_topic=topic, job_role=job_role, time_limit=time_limit)
     if selected_topic:
         print(f"**주제:** {selected_topic}\n")
     print(initial_question)
@@ -451,7 +455,7 @@ def ai_interview_question_generator(test_type="creative", save_results=True, top
     # 3. 난이도 조정
     print("\n## 3. 난이도 조정")
     print("-"*40)
-    adjusted_question = adjust_difficulty(validated_question, selected_topic or "", job_name)
+    adjusted_question = adjust_difficulty(validated_question, selected_topic or "", job_name, time_limit)
     print(adjusted_question)
     results["adjusted_question"] = adjusted_question
 
@@ -591,6 +595,8 @@ if __name__ == "__main__":
     parser.add_argument('--test-type', choices=['creative', 'complex', 'default'], 
                        default='creative', help='문제 생성 모드 (creative/complex/default)')
     parser.add_argument('--no-save', action='store_true', help='결과를 파일로 저장하지 않음')
+    parser.add_argument('--time-limit', type=int, default=30,
+                       help='문제 해결 제한 시간(분) (기본값: 30분)')
     
     # 주제 관련 옵션
     topic_group = parser.add_mutually_exclusive_group()
@@ -653,7 +659,8 @@ if __name__ == "__main__":
         test_type=args.test_type, 
         save_results=not args.no_save,
         topic=selected_topic,
-        job_role=selected_job
+        job_role=selected_job,
+        time_limit=args.time_limit
     )
     
     # 최종 문제 출력

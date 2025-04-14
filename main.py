@@ -51,8 +51,14 @@ def generate_topics(existing_topics):
     return response.text.strip()
 
 # 📌 1️⃣ 기획 AI: 문제 초안 생성 (직무 파라미터 추가)
+def get_job_name(job_role):
+    """직업군 이름을 반환합니다. 기본값은 입력된 직업군을 그대로 사용합니다."""
+    if job_role in job_positions:
+        return job_positions[job_role]
+    return job_role.replace("_", " ").title()
+
 def generate_initial_question(specified_topic=None, job_role="ai_engineer", time_limit=30):
-    job_name = job_positions[job_role]
+    job_name = get_job_name(job_role)
     
     if specified_topic:
         topic = specified_topic
@@ -412,7 +418,7 @@ def generate_interviewer_guide(question, job_name):
 def ai_interview_question_generator(test_type="creative", save_results=True, topic=None, job_role="ai_engineer", time_limit=30):
     # 결과를 저장할 딕셔너리 생성
     results = {}
-    job_name = job_positions[job_role]
+    job_name = get_job_name(job_role)
     
     print("\n" + "="*80)
     print(f"# {job_name} 면접 문제 생성 프로세스")
@@ -640,12 +646,10 @@ if __name__ == "__main__":
             exit(1)
     
     # 직업군 선택 로직
-    selected_job = "ai_engineer"  # 기본값
-    if args.job:
-        if args.job in job_positions:
-            selected_job = args.job
-        else:
-            print(f"경고: '{args.job}'은 지원하지 않는 직업군입니다. 기본값(AI 엔지니어)으로 진행합니다.")
+    selected_job = args.job
+    job_name = get_job_name(selected_job)
+    if selected_job not in job_positions:
+        print(f"경고: '{selected_job}'은 지원하지 않는 직업군입니다. 기본값(AI 엔지니어)으로 진행합니다.")
     elif args.job_id:
         job_keys = list(job_positions.keys())
         if 1 <= args.job_id <= len(job_keys):
